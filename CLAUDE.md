@@ -37,3 +37,7 @@ Landing page informativa de fisioterapia construída com Next.js App Router.
 - Ler `AGENTS.md` antes de qualquer alteração no Next.js: esta versão tem mudanças de API em relação a versões anteriores.
 - Tailwind CSS v4 usa sintaxe diferente da v3 (sem `tailwind.config.js`, configuração via CSS).
 - Fontes: Geist Sans e Geist Mono via `next/font/google`.
+
+## Automações ativas
+- Lint roda automaticamente após qualquer alteração em `.ts` ou `.tsx`
+- Arquivos `.env` são bloqueados para leitura e escrita
