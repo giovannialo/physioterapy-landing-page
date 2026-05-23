@@ -8,7 +8,5 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ erro: 'Campos obrigatórios ausentes.' }, { status: 400 })
   }
 
-  console.log('Novo contato recebido:', { nome, email, mensagem })
-
   return NextResponse.json({ ok: true })
 }

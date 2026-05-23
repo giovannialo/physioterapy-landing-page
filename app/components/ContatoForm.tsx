@@ -40,7 +40,7 @@ export default function ContatoForm() {
         </p>
 
         {enviado ? (
-          <p className="text-center text-teal-600 font-medium">
+          <p role="status" className="text-center text-teal-600 font-medium">
             Mensagem enviada! Entraremos em contato em breve.
           </p>
         ) : (
@@ -101,7 +101,7 @@ export default function ContatoForm() {
               {carregando ? 'Enviando…' : 'Enviar'}
             </button>
             {erro && (
-              <p className="text-red-600 text-sm text-center">
+              <p role="alert" className="text-red-600 text-sm text-center">
                 Erro ao enviar. Tente novamente.
               </p>
             )}
