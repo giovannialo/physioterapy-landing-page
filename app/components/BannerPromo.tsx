@@ -29,6 +29,8 @@ export default function BannerPromo({
         </div>
         <a
           href={ctaLink}
+          target="_blank"
+          rel="noopener noreferrer"
           className="shrink-0 inline-block bg-white text-teal-700 font-semibold px-8 py-3 rounded-full hover:bg-teal-50 transition-colors whitespace-nowrap"
         >
           {ctaTexto}

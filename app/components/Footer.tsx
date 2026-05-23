@@ -28,7 +28,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="text-sm hover:text-teal-400 transition-colors"
           >
-            WhatsApp
+            Falar pelo WhatsApp
           </a>
           <a href="mailto:contato@fisioclinica.com.br" className="text-sm hover:text-teal-400 transition-colors">
             contato@fisioclinica.com.br
