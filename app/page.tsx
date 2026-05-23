@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import SobreNos from "./components/SobreNos"
 import ServicosOferecidos from "./components/ServicosOferecidos"
 import Depoimentos from "./components/Depoimentos"
+import BannerPromo from "./components/BannerPromo"
 import ContatoForm from "./components/ContatoForm"
 import Footer from "./components/Footer"
 import WhatsAppFloat from "./components/WhatsAppFloat"
@@ -17,6 +18,13 @@ export default function Home() {
         <SobreNos />
         <ServicosOferecidos />
         <Depoimentos />
+        <BannerPromo
+          destaque="Oferta especial"
+          titulo="Primeira avaliação gratuita"
+          descricao="Agende sua consulta inicial sem custo e descubra o tratamento ideal para sua recuperação."
+          ctaTexto="Agendar agora"
+          ctaLink="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20gratuita"
+        />
         <ContatoForm />
       </main>
       <Footer />
