@@ -7,6 +7,7 @@ import Depoimentos from "./components/Depoimentos"
 import BannerPromo from "./components/BannerPromo"
 import FormAgendamento from "./components/FormAgendamento"
 import ContatoForm from "./components/ContatoForm"
+import FAQ from "./components/FAQ"
 import Footer from "./components/Footer"
 import WhatsAppFloat from "./components/WhatsAppFloat"
 
@@ -28,6 +29,7 @@ export default function Home() {
         />
         <FormAgendamento />
         <ContatoForm />
+        <FAQ />
       </main>
       <Footer />
       <WhatsAppFloat />
