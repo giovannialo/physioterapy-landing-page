@@ -9,7 +9,7 @@ export default function SobreNos() {
     <section id="sobre-nos" className="bg-white py-20 px-6">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-zinc-800 mb-3">Sobre Nós</h2>
-        <div className="w-16 h-1 bg-teal-500 rounded-full mb-10" />
+        <div className="w-16 h-1 bg-teal-500 rounded-full mb-10" aria-hidden="true" />
 
         <div className="grid gap-12 md:grid-cols-2 items-center">
           <div className="space-y-4">

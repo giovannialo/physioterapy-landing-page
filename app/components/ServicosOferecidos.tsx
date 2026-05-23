@@ -37,7 +37,7 @@ export default function ServicosOferecidos() {
     <section id="servicos" className="bg-zinc-50 py-20 px-6">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-zinc-800 mb-3">Serviços Oferecidos</h2>
-        <div className="w-16 h-1 bg-teal-500 rounded-full mb-10" />
+        <div className="w-16 h-1 bg-teal-500 rounded-full mb-10" aria-hidden="true" />
 
         <div className="grid gap-6 sm:grid-cols-3">
           {servicos.map((servico) => (
@@ -45,7 +45,7 @@ export default function ServicosOferecidos() {
               key={servico.titulo}
               className="bg-white rounded-2xl p-6 shadow-sm border border-zinc-100 flex flex-col gap-4"
             >
-              <div className="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center shrink-0" aria-hidden="true">
                 {servico.icone}
               </div>
               <div>
@@ -56,6 +56,12 @@ export default function ServicosOferecidos() {
                   {servico.descricao}
                 </p>
               </div>
+              <a
+                href="#agendamento"
+                className="text-sm font-medium text-teal-600 hover:text-teal-700 transition-colors mt-auto"
+              >
+                Agendar consulta →
+              </a>
             </div>
           ))}
         </div>
