@@ -40,10 +40,16 @@ Landing page informativa de fisioterapia construída com Next.js App Router.
 
 ## Comandos customizados disponíveis
 
-- `/component <Nome>` — cria um componente React em `app/components/` seguindo os padrões do projeto (TypeScript, Tailwind, export default)
 - `/accessibility` — audita acessibilidade do projeto: verifica uso de aria, contraste, semântica HTML e sugere melhorias
-- `/review` — revisa as alterações da sessão: roda o build, verifica console.log esquecidos e sugere melhorias de acessibilidade
 - `/commit` — analisa todas as alterações não commitadas e propõe commits separados por contexto seguindo conventional commits
+- `/component <Nome>` — cria um componente React em `app/components/` seguindo os padrões do projeto (TypeScript, Tailwind, export default)
+- `/deps <pacote>` — avalia uma dependência antes de instalar
+- `/doc <arquivo>` — documenta o arquivo informado
+- `/explains <arquivo>` — explica o arquivo em português de forma clara e objetiva
+- `/fix <erro>` — analisa um erro e guia o processo de correção
+- `/refactor <arquivo>` — refatora o arquivo seguindo boas práticas
+- `/review` — revisa as alterações da sessão: roda o build, verifica console.log esquecidos e sugere melhorias de acessibilidade
+- `/translate <arquivo>` — lista textos hardcoded que precisam ser extraídos para internacionalização
 ## Automações ativas
 - Lint roda automaticamente após qualquer alteração em `.ts` ou `.tsx`
 - Arquivos `.env` são bloqueados para leitura e escrita
