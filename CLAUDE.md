@@ -40,7 +40,7 @@ Landing page informativa de fisioterapia construída com Next.js App Router.
 
 ## Comandos customizados disponíveis
 
-- `/componente <Nome>` — cria um componente React em `app/components/` seguindo os padrões do projeto (TypeScript, Tailwind, export default)
+- `/component <Nome>` — cria um componente React em `app/components/` seguindo os padrões do projeto (TypeScript, Tailwind, export default)
 - `/review` — revisa as alterações da sessão: roda o build, verifica console.log esquecidos e sugere melhorias de acessibilidade
 - `/commit` — analisa todas as alterações não commitadas e propõe commits separados por contexto seguindo conventional commits
 - `/debug` — analisa um erro e guia o processo de correção passo a passo
