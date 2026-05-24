@@ -44,8 +44,6 @@ Landing page informativa de fisioterapia construída com Next.js App Router.
 - `/accessibility` — audita acessibilidade do projeto: verifica uso de aria, contraste, semântica HTML e sugere melhorias
 - `/review` — revisa as alterações da sessão: roda o build, verifica console.log esquecidos e sugere melhorias de acessibilidade
 - `/commit` — analisa todas as alterações não commitadas e propõe commits separados por contexto seguindo conventional commits
-- `/debug` — analisa um erro e guia o processo de correção passo a passo
-
 ## Automações ativas
 - Lint roda automaticamente após qualquer alteração em `.ts` ou `.tsx`
 - Arquivos `.env` são bloqueados para leitura e escrita
