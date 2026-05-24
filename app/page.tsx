@@ -3,6 +3,7 @@ import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import SobreNos from "./components/SobreNos"
 import ServicosOferecidos from "./components/ServicosOferecidos"
+import Especialidades from "./components/Especialidades"
 import Depoimentos from "./components/Depoimentos"
 import BannerPromo from "./components/BannerPromo"
 import FormAgendamento from "./components/FormAgendamento"
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <SobreNos />
         <ServicosOferecidos />
+        <Especialidades />
         <Depoimentos />
         <BannerPromo
           destaque="Oferta especial"
